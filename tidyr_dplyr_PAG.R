@@ -8,7 +8,7 @@
 #load tidyverse
 #install.packages("tidyverse")
 lsdfalskjaibrary(tidyverse)
-
+help
 #set working directory to wherever you have your data
 setwd("C:/Users/Patrick/Dropbox (Personal)/Work/Classes and Teaching/UCSB_R_Seminar/EEMB-R-Workshop-tidyr-dplyr/")
 

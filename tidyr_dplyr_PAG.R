@@ -4,13 +4,11 @@
 
 #load tidyverse
 #install.packages("tidyverse")
-<<<<<<< HEAD
-lsdfalskjaibrary(tidyverse)
-help
-=======
+install.packages("here")
 library(tidyverse)
 
->>>>>>> 399a7c45ec7d21e67977a1d7bee0b0b73bd0c59c
+=======
+library(tidyverse)
 #set working directory to wherever you have your data
 setwd("C:/Users/Patrick/Dropbox (Personal)/Work/Classes and Teaching/UCSB_R_Seminar/EEMB-R-Workshop-tidyr-dplyr/")
 
@@ -48,7 +46,8 @@ basic.mongooses$focal[basic.mongooses$n.adults>10 & basic.mongooses$mean.age>150
 #try finding rows where n_adults > 10
 mongooses%>%filter(n.adults>10) #how is this different from line 33 above?
 #find only the focal groups with n_adults>10 and n_males>5
-mongooses%>%filter(n.adults>10, mean.age>1500)%>%select(focal) #WOO THAT IS EASIER than line 35
+test <- mongooses%>%filter(n.adults>10 ,  mean.age>1500)%>%select(focal) #WOO THAT IS EASIER than line 35
+
 
 #let's compare focal groups to rival groups
 #load the rival group data

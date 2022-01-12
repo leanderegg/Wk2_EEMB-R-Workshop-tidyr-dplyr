@@ -1,12 +1,18 @@
 #basic R and tidyverse indexing etc....
 #created PAG 11 Jan 2021
 
+# ISNT THIS COOL!
+
+
+
 #load tidyverse
 #install.packages("tidyverse")
-library(tidyverse)
+lsdfalskjaibrary(tidyverse)
 
 #set working directory to wherever you have your data
 setwd("C:/Users/Patrick/Dropbox (Personal)/Work/Classes and Teaching/UCSB_R_Seminar/EEMB-R-Workshop-tidyr-dplyr/")
+
+plot(awesomedata$x~otherstuff)
 basic.mongooses <- read.csv("mongooses.csv")
 mongooses <- as_tibble(read.csv("mongooses.csv"))
 
